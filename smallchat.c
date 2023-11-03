@@ -147,6 +147,7 @@ void *chatMalloc(size_t size) {
     }
     return ptr;
 }
+//----------------------------------//
 
 /* Also aborting realloc(). */
 void *chatRealloc(void *ptr, size_t size) {
